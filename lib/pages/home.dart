@@ -28,13 +28,17 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Buscar CEP'),
+        title: const Text('Consulta CEP '),
       ),
       body: SingleChildScrollView(
           child: Form(
         key: formKey,
         child: Responsive(children: [
           Column(children: [
+            Div(
+                child: Image.network(
+                    'https://tfile.com.br/consultarcep.com.br/upload/img/logo.png')),
+            const Div(child: Text('Digite aqui um número do cep')),
             Div(
               divison: const Division(
                 colS: 5,
