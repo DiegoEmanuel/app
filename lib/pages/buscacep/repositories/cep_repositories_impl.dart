@@ -1,6 +1,6 @@
 import 'dart:developer';
 
-import 'package:app/models/endereco_model.dart';
+import 'package:app/pages/buscacep/models/endereco_model.dart';
 import 'package:dio/dio.dart';
 
 import './cep_repositories.dart';
